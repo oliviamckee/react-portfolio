@@ -1,8 +1,5 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +7,89 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --color-one: #D0D6B3;
+  --color-two: #E4C1F9;
+  --color-three: #AAAE7F;
+  --color-four: #5B507A;
+  --color-five: #25291C;
+}
+
+* {
+  background-color: var(--color-one);
+  color: var(--color-five);
+}
+
+#app {
+  margin: 20px;
+}
+
+/* header */
+#nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navActive {
+  color: var(--color-four);
+  font-weight: bold;
+}
+
+button {
+  border: 2px solid #5B507A;
+  border-radius: 10px;
+  background-color: #E4C1F9;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button span {
+  background-color: #E4C1F9;
+}
+
+/* footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: var(--color-three);
+  text-align: center;
+}
+
+#footer p {
+  background-color: var(--color-three);
+}
+
+#footer a {
+  background-color: var(--color-three);
+}
+
+#footer svg {
+  background-color: var(--color-three);
+}
+
+
+/* about */
+#selfie {
+  max-height: 200px;
+  margin: 15px;
+  border: 2px solid var(--color-four);
+  border-radius: 10px;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#bio {
+  width: 60%;
+  margin: 15px;
 }
