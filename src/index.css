@@ -14,7 +14,7 @@ code {
   --color-two: #E4C1F9;
   --color-three: #AAAE7F;
   --color-four: #5B507A;
-  --color-five: #25291C;
+  --color-five: #3c422d;
 }
 
 * {
@@ -31,17 +31,13 @@ h1 {
   font-size: 40px;
 }
 
+
 #nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style: none;
-}
-
-.navActive {
-  color: var(--color-four);
-  font-weight: bold;
 }
 
 button {
@@ -54,6 +50,16 @@ button {
 
 button span {
   background-color: #E4C1F9;
+}
+
+.navActive {
+  background-color: #5B507A;
+
+}
+
+.navActive span {
+  background-color: #5B507A;
+  color: #E4C1F9;
 }
 
 /* footer */
@@ -109,11 +115,37 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 20px
 }
 
 #gallery img {
   height: 100px;
   object-fit: cover;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  margin: 10px;
+  border: 2px solid var(--color-four);
+  border-radius: 7px;
+}
+
+.card a {
+  background-color: rgba(228, 193, 249, 1);
+  color: rgba(91, 80, 122);
+  margin: 5px;
+  width: fit-content;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card a svg {
+  background-color: rgba(228, 193, 249, 1);
+  color: rgba(91, 80, 122);
 }
 
 a {
@@ -126,4 +158,30 @@ a:hover {
 
 h3 {
   font-size: 20px;
+}
+
+/* contact */
+#contact-form div {
+  margin: 10px;
+}
+
+#contact-form input {
+  margin: 8px;
+  border: 1px solid var(--color-three)
+}
+
+#contact-form textarea {
+  margin: 8px;
+  border: 1px solid var(--color-three)
+}
+
+.error-text {
+  font-weight: bold;
+}
+
+/* resume */
+#download {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }

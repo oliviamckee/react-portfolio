@@ -7,10 +7,6 @@ function Navigation(props) {
         currentCategory,
     } = props;
 
-    // function categorySelected(name) {
-    //     console.log(`${name} clicked`)
-    // }
-
     return (
         <nav id="nav">
             {categories.map((category) => (
