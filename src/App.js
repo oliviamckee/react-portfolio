@@ -27,10 +27,10 @@ function App() {
         currentCategory={currentCategory}
       ></Navigation>
       <main>
-        <About></About>
-        <Project></Project>
-        <Contact></Contact>
-        <Resume></Resume>
+        {currentCategory === categories[0] && <About></About>}
+        {currentCategory === categories[1] && <Project></Project>}
+        {currentCategory === categories[2] && <Contact></Contact>}
+        {currentCategory === categories[3] && <Resume></Resume>}
       </main>
       <Footer></Footer>
     </div>
