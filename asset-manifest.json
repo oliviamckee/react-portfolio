@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f753f89a.css",
+    "main.js": "/react-portfolio/static/js/main.e500a2b9.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/photo-port-screenshot.png": "/react-portfolio/static/media/photo-port-screenshot.b44064e1e59119b5ffe1.png",
+    "static/media/fictional-guacamole-screenshot.png": "/react-portfolio/static/media/fictional-guacamole-screenshot.fca4673f6d197d562787.png",
+    "static/media/pizza-hunt-screenshot.png": "/react-portfolio/static/media/pizza-hunt-screenshot.e074f111db2001a1c2c1.png",
+    "static/media/zookeepr-screenshot.png": "/react-portfolio/static/media/zookeepr-screenshot.226c1c9967fbc90cceb1.png",
+    "static/media/selfie.JPG": "/react-portfolio/static/media/selfie.9e1789aa279129cac947.JPG",
+    "static/media/tech-blog-screenshot.png": "/react-portfolio/static/media/tech-blog-screenshot.09855f35f5fa88b53022.png",
+    "static/media/note-taker-screenshot.png": "/react-portfolio/static/media/note-taker-screenshot.8612354e8cb229174592.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f753f89a.css.map": "/react-portfolio/static/css/main.f753f89a.css.map",
+    "main.e500a2b9.js.map": "/react-portfolio/static/js/main.e500a2b9.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f753f89a.css",
+    "static/js/main.e500a2b9.js"
+  ]
+}
