@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <div>
-            <h3>My Skills</h3>
+            <h2>My Skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -14,7 +14,7 @@ function Resume() {
                 <li>Mongo</li>
                 <li>React</li>
             </ul>
-            <a id="download" href="https://docs.google.com/document/d/18dx_1Z7baFxQEwEwlmER7m11QrxE8lp-QB-Dp9fvZQc/edit?usp=sharing">Download my Resume</a>
+            <a id="download" href="https://docs.google.com/document/d/18dx_1Z7baFxQEwEwlmER7m11QrxE8lp-QB-Dp9fvZQc/edit?usp=sharing">Download my Resume here</a>
         </div>
     );
 }
