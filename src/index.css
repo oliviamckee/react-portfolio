@@ -65,6 +65,7 @@ button {
   background-color: #E4C1F9;
   font-family: 'Courier New', Courier, monospace;
   font-size: 17px;
+  font-weight: bold;
   margin: 5px;
 }
 
@@ -158,17 +159,20 @@ h2 {
 }
 
 .card a {
-  background-color: rgba(228, 193, 249, 1);
-  color: rgba(91, 80, 122);
+  background-color: rgba(91, 80, 122, 1);
+  color: rgba(228, 193, 249);
   margin: 5px;
   width: fit-content;
   font-size: 20px;
   font-weight: bold;
+  border-radius: 10px;
+  padding: 3px;
 }
 
 .card a svg {
   background-color: rgba(228, 193, 249, 1);
-  color: rgba(91, 80, 122);
+  color: rgba(228, 193, 249);
+  border-radius: 10px;
 }
 
 a {
