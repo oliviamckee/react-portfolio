@@ -20,18 +20,20 @@ function App() {
 
   return (
     <div id="app">
-      <Header></Header>
-      <Navigation
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      ></Navigation>
-      <main>
+      <div id="header">
+        <Header></Header>
+        <Navigation
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        ></Navigation>
+      </div>
+      <div id="main">
         {currentCategory === categories[0] && <About></About>}
         {currentCategory === categories[1] && <Project></Project>}
         {currentCategory === categories[2] && <Contact></Contact>}
         {currentCategory === categories[3] && <Resume></Resume>}
-      </main>
+      </div>
       <Footer></Footer>
     </div>
   );

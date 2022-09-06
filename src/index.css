@@ -22,15 +22,34 @@ code {
   color: var(--color-five);
 }
 
-#app {
-  margin: 20px;
+#main {
+  margin-top: 220px;
+  margin-bottom: 130px;
 }
 
 /* header */
+#header {
+  background-color: var(--color-three);
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+#header h1 {
+  background-color: var(--color-three);
+}
+
+#header nav {
+  background-color: var(--color-three);
+}
+
 h1 {
   font-size: 40px;
 }
-
 
 #nav {
   display: flex;
@@ -46,6 +65,7 @@ button {
   background-color: #E4C1F9;
   font-family: 'Courier New', Courier, monospace;
   font-size: 17px;
+  margin: 5px;
 }
 
 button span {
@@ -54,7 +74,6 @@ button span {
 
 .navActive {
   background-color: #5B507A;
-
 }
 
 .navActive span {
@@ -79,12 +98,16 @@ button span {
 
 #footer a {
   background-color: var(--color-three);
+  opacity: 75%;
 }
 
 #footer svg {
   background-color: var(--color-three);
 }
 
+#footer a:hover {
+  opacity: 100%;
+}
 
 /* about */
 h2 {
