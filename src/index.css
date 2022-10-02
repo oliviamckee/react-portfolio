@@ -195,6 +195,10 @@ h3 {
   font-size: 20px;
 }
 
+body {
+  height: 100%;
+}
+
 /* contact */
 #contact-form div {
   margin: 10px;

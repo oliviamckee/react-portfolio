@@ -1,13 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import photoPort from "../../assets/photo-port-screenshot.png";
 import pizzaHunt from "../../assets/pizza-hunt-screenshot.png";
 import techBlog from "../../assets/tech-blog-screenshot.png";
 import fictionalGuacamole from "../../assets/fictional-guacamole-screenshot.png";
 import zookeepr from "../../assets/zookeepr-screenshot.png";
 import noteTaker from "../../assets/note-taker-screenshot.png";
+import whatssoap from "../../assets/whats-soap-screenshot.png";
 
 function Project() {
     const projects = [
+        {
+            name: "What's Soap",
+            imgsrc: whatssoap,
+            link: "https://whats-soap.herokuapp.com/",
+            repo: "https://github.com/AlexandertheGreat491/whats_soap"
+        },
         {
             name: "Photo Portfolio",
             imgsrc: photoPort,
